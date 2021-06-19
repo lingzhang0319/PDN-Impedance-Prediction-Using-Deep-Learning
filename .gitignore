@@ -1,0 +1,6 @@
+/source
+*.pyc
+__pycache__
+/.ipynb_checkpoints
+/brd_data
+/supervised_data
