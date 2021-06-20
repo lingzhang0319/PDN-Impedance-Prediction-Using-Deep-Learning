@@ -316,7 +316,7 @@ def gen_brd_data(brd, max_len, img_size, num_locations=20, n=8, thre_angle=30, r
 
 if __name__ == '__main__':
     
-    N = 2000
+    N = 10000
     n = 0
     BASE_PATH = 'brd_data/'
     
