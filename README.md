@@ -8,9 +8,9 @@ The paper can also be found on arXiv:
 
 ## Code Explanation
 - 1. Run gen_brd.py to generate PCB boards with different shapes, stackups, and candidate decap locations (19 locations maximum).
-- 2. Run gen_supervised_data.py to generate data for supervised learning using the board data generated in step 1. 
+- 2. Run gen_supervised_data.py to generate data for supervised learning using the board data generated in step i. 
 - 3. Run train_supervised.py to train the supervised learning algorithm to predict PDN impedance.
-- 4. Run read_supervised_model.py to view the prediction result using the trained model in step 3.
+- 4. Run read_supervised_model.py to view the prediction result using the trained model in step iii.
 
 ## Training process
 ![fig9](https://user-images.githubusercontent.com/33564605/122676465-d3d20c00-d210-11eb-9016-7033c914a353.png)
