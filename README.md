@@ -7,8 +7,8 @@ Abstract: Modeling and simulating a power distribution network (PDN) for printed
 The paper can also be found on arXiv: 
 
 ## Code Usage
-- 1. Run _gen_brd.py_ to generate PCB boards with different shapes, stackups, and candidate decap locations (19 locations maximum).
-- 2. Run _gen_supervised_data.py_ to generate data for supervised learning using the board data generated in step i. 
+- 1. Run _gen_brd.py_ to generate PCB boards with different shapes(the maximum area is 200mm by 200mm), stackups(number of layers is 4~9), and candidate decap locations (19 locations maximum, distance between power to ground via is 2mm).
+- 2. Run _gen_supervised_data.py_ to generate data for supervised learning using the board data generated in step i (now for each board generated in step 1, decap number ranges from 0 to 19, and the locations are random). 
 - 3. Run _train_supervised.py_ to train the supervised learning algorithm to predict PDN impedance.
 - 4. Run _read_supervised_model.py_ to view the prediction result using the trained model in step iii.
 
