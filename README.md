@@ -1,6 +1,8 @@
 # Fast PDN Impedance Prediction Using Deep Learning
 This Python code is the algorithm for the paper: Fast PDN Impedance Prediction Using Deep Learning, which has been sumbitted to **International Journal of Numerical Modeling: Electronic Networks, Devices and Fields.**
 
+Author: Ling Zhang; email: lingzhang_zju@zju.edu.cn
+
 `L. Zhang, J. Juang, Z. Kiguradze, B. Pu, S. Jin, S. Wu, Z. Yang, and C. Hwang, “Fast PDN Impedance Prediction Using Deep Learning,” International Journal of Numerical Modeling: Electronic Networks, Devices and Fields, submitted.`
 
 Abstract: Modeling and simulating a power distribution network (PDN) for printed circuit boards (PCBs) with irregular shapes and multi-layer stackups is computationally inefficient using full-wave simulations. This paper presents a new concept of using deep learning for PDN impedance prediction. A boundary element method (BEM) is applied to efficiently calculate the impedance for arbitrary board shape and stackup. Then, over one million boards with different shapes, stackup, IC location, and decap placement are randomly generated to train a deep neural network (DNN). The trained DNN can predict the impedance accurately for new board configurations that have not been used for training. The consumed time using the trained DNN is only 0.1 seconds, which is over 100 times faster than the BEM method and 5000 times faster than full-wave simulations.
