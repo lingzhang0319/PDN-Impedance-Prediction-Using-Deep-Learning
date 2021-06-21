@@ -1,6 +1,6 @@
 # Fast PDN Impedance Prediction Using Deep Learning
 
-Author: Ling Zhang; email: lingzhang_zju@zju.edu.cn
+Author: Ling Zhang; email: lingzhang_zju@zju.edu.cn; lzd76@mst.edu
 
 This Python code is the algorithm for the paper: Fast PDN Impedance Prediction Using Deep Learning, which has been sumbitted to **International Journal of Numerical Modeling: Electronic Networks, Devices and Fields.**
 
