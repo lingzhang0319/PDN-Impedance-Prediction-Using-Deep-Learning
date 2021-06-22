@@ -11,7 +11,7 @@ _If you want to reuse this work, please cite this paper:_
 Abstract: Modeling and simulating a power distribution network (PDN) for printed circuit boards (PCBs) with irregular shapes and multi-layer stackups is computationally inefficient using full-wave simulations. This paper presents a new concept of using deep learning for PDN impedance prediction. A boundary element method (BEM) is applied to efficiently calculate the impedance for arbitrary board shape and stackup. Then, over one million boards with different shapes, stackup, IC location, and decap placement are randomly generated to train a deep neural network (DNN). The trained DNN can predict the impedance accurately for new board configurations that have not been used for training. The consumed time using the trained DNN is only 0.1 seconds, which is over 100 times faster than the BEM method and 5000 times faster than full-wave simulations.
 
 
-The paper can also be found on [arXiv](https://arxiv.org/pdf/2106.10693.pdf). (There is soem problem with the paper citations in the arXiv PDF file)
+The paper can also be found on [arXiv](https://arxiv.org/pdf/2106.10693.pdf). (There is some problem with the paper citations in the arXiv PDF file)
 
 ## Code Usage
 - 1. Run **_gen_brd.py_** to generate PCB boards with different shapes(the maximum area is 200mm by 200mm), stackups(number of layers is 4~9), and candidate decap locations (19 locations maximum, distance between power to ground via is 2mm).
