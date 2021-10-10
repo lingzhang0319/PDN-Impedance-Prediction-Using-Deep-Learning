@@ -2,7 +2,7 @@
 
 Author: Ling Zhang; email: lingzhang_zju@zju.edu.cn; lzd76@mst.edu
 
-This Python code is the algorithm for the paper: Fast PDN Impedance Prediction Using Deep Learning, which has published on **International Journal of Numerical Modeling: Electronic Networks, Devices and Fields.** (https://onlinelibrary.wiley.com/doi/10.1002/jnm.2956)
+This Python code is the algorithm for the paper: Fast impedance prediction for power distribution network using deep learning, which has published on **International Journal of Numerical Modeling: Electronic Networks, Devices and Fields.** (https://onlinelibrary.wiley.com/doi/10.1002/jnm.2956)
 
 _If you want to reuse this work, please cite this paper:_
 
